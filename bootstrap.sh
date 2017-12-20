@@ -10,8 +10,8 @@ function load_lib_for_distribution() {
 }
 
 function copy_home() {
-  cp -r home/.* ~/
-  #cp -r home/* ~/
+  cp -r home/. ~/
+  cp -r home/* ~/
 }
 
 function finish() {
